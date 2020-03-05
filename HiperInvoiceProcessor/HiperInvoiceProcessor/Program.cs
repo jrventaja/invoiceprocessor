@@ -63,6 +63,10 @@ namespace HiperInvoiceProcessor
                 }
 
             }
+            zeroedAmountFileWriter.Close();
+            lessOrEq6PagesFileWriter.Close();
+            lessOrEq12PagesFileWriter.Close();
+            moreThan12PagesFileWriter.Close();
         }
     }
 }
